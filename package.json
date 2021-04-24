@@ -1,0 +1,40 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.9",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+		"grovcoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/percussionpc/node-stratum",
+    "bugs": {
+        "url": "https://github.com/percussionpc/node-stratum/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/percussionpc/node-stratum.git"
+    },
+    "dependencies": {
+        "multi-hashing": "git://github.com/percussionpc/node-multi-hashing.git",
+        "bignum": "0.13.1",
+        "base58-native": "*",
+        "async": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
