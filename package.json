@@ -10,7 +10,7 @@
         "poolserver",
         "bitcoin",
         "litecoin",
-		"grovcoin",
+	"grovcoin",
         "scrypt"
     ],
     "homepage": "https://github.com/percussionpc/node-stratum",
